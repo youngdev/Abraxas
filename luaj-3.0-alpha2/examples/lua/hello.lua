@@ -1,2 +1,2 @@
-local tesler = luajava.bindClass("com.fifthdimensionsoftware.lua.LuaJava")
+local tesler = luajava.getCore()
 tesler:playSound("Tesler.wav")
