@@ -1,4 +1,4 @@
-Dharmayuddha
+Zero Day Exploit
 ============
 A hacking game similar to Introversion Software's Uplink, but with many key changes.
 An open-world hacking and internet simulator with a fully featured Lua interpreter that allows players to design innovative cracks and subsequent patches for security systems created by players.
