@@ -1,0 +1,29 @@
+local core = luajava.getCore()
+local windowManager = core:getManager()
+function boot()
+core:getScreen():drawImage(core:generatePattern(core:getResource("Pattern_Cube"), core:screenWidth(), core:screenHeight()), 0, 0, core:screenWidth(), core:screenHeight(), core:getObserver())
+core:getScreen():drawImage(core:generateBorder(core:createColor(0,0,0,255), core:screenWidth(), core:screenHeight(), 10), 0, 0, core:screenWidth(), core:screenHeight(), core:getObserver())
+windowManager:addWindow(core:screenWidth()/2-250,core:screenHeight()/2-100,500,200,"BITPRO INDUSTRIES BOOTLOADER")
+windowManager:windowSurface("BITPRO INDUSTRIES BOOTLOADER"):setColor(core:createColor(255,255,255,255))
+windowManager:windowSurface("BITPRO INDUSTRIES BOOTLOADER"):drawImage(core:vertGradient(core:createColor(95,1,1,255), core:createColor(181,10,10,255), 500, 200), 0,20,500,180, core:getObserver())
+windowManager:windowSurface("BITPRO INDUSTRIES BOOTLOADER"):drawString("NOW STARTING BITPRO INDUSTRIES UNIFIED OPERATING SYSTEM.",5,35)
+windowManager:windowSurface("BITPRO INDUSTRIES BOOTLOADER"):drawString("PLEASE WAIT...",5,192)
+
+windowManager:addWindow(50,50,500,200,"TESTWINDOW")
+windowManager:getWindow("TESTWINDOW"):updateColors(core:createColor(0,0,0,255), core:createColor(0,0,255,255), core:createColor(0,0,0,255))
+windowManager:windowSurface("TESTWINDOW"):drawImage(core:vertGradient(core:createColor(0,0,255,255), core:createColor(0,0,0,255), 500, 200), 0,20,500,180, core:getObserver())
+core:repaintScreen()
+--windowManager:getWindow("BITPRO INDUSTRIES BOOTLOADER"):addMouseRegion("button", "boot", 0,0,500,200)
+windowManager:getWindow("BITPRO INDUSTRIES BOOTLOADER"):addMouseRegion("INTERNALDRAG", "", 0,0,500,20)
+
+windowManager:getWindow("TESTWINDOW"):addMouseRegion("removeWindow", "boot", 0,0,500,20)
+end
+function allocate()
+core:allocateResource("Pattern_Cube")
+end
+function removeWindow()
+windowManager:removeWindow("TESTWINDOW")
+end
+function postRender(window)
+--Normally, this would draw things like the close and minimise boxes
+end
