@@ -1,29 +1,35 @@
 local core = luajava.getCore()
-local windowManager = core:getManager()
+local windowManager = core:getRootManager()
+local screen2 = core:getManager(0)
+local fileOut = core:openPrintStream("test.txt", true)
+local fileIn = core:openScanner("test.txt")
+local prop = core:openProperties("test.txt")
+local lang = core:openLang("en_US")
 function boot()
-core:getScreen():drawImage(core:generatePattern(core:getResource("Pattern_Cube"), core:screenWidth(), core:screenHeight()), 0, 0, core:screenWidth(), core:screenHeight(), core:getObserver())
-core:getScreen():drawImage(core:generateBorder(core:createColor(0,0,0,255), core:screenWidth(), core:screenHeight(), 10), 0, 0, core:screenWidth(), core:screenHeight(), core:getObserver())
-windowManager:addWindow(core:screenWidth()/2-250,core:screenHeight()/2-100,500,200,"BITPRO INDUSTRIES BOOTLOADER")
-windowManager:windowSurface("BITPRO INDUSTRIES BOOTLOADER"):setColor(core:createColor(255,255,255,255))
-windowManager:windowSurface("BITPRO INDUSTRIES BOOTLOADER"):drawImage(core:vertGradient(core:createColor(95,1,1,255), core:createColor(181,10,10,255), 500, 200), 0,20,500,180, core:getObserver())
-windowManager:windowSurface("BITPRO INDUSTRIES BOOTLOADER"):drawString("NOW STARTING BITPRO INDUSTRIES UNIFIED OPERATING SYSTEM.",5,35)
-windowManager:windowSurface("BITPRO INDUSTRIES BOOTLOADER"):drawString("PLEASE WAIT...",5,192)
+core:getScreen(1):drawImage(core:generatePattern(core:getResource("Pattern_Cube"), core:rootWidth(), core:rootHeight()), 0, 0, core:rootWidth(), core:rootHeight(), core:getObserver())
+core:getScreen(1):drawImage(core:generateBorder(core:createColor(0,0,0,255), core:rootWidth(), core:rootHeight(), 10), 0, 0, core:rootWidth(), core:rootHeight(), core:getObserver())
+windowManager:addWindow(core:rootWidth()/2-250,core:rootHeight()/2-100,500,200,lang:getKey("BootTitle"))
+windowManager:windowSurface(lang:getKey("BootTitle")):setColor(core:createColor(255,255,255,255))
+windowManager:windowSurface(lang:getKey("BootTitle")):drawImage(core:vertGradient(core:createColor(95,1,1,255), core:createColor(181,10,10,255), 500, 200), 0,20,500,180, core:getObserver())
+windowManager:windowSurface(lang:getKey("BootTitle")):drawString(lang:getKey("BootText"),5,35)
+windowManager:windowSurface(lang:getKey("BootTitle")):drawString(lang:getKey("BootWait"),5,192)
 
-windowManager:addWindow(50,50,500,200,"TESTWINDOW")
-windowManager:getWindow("TESTWINDOW"):updateColors(core:createColor(0,0,0,255), core:createColor(0,0,255,255), core:createColor(0,0,0,255))
-windowManager:windowSurface("TESTWINDOW"):drawImage(core:vertGradient(core:createColor(0,0,255,255), core:createColor(0,0,0,255), 500, 200), 0,20,500,180, core:getObserver())
-core:repaintScreen()
---windowManager:getWindow("BITPRO INDUSTRIES BOOTLOADER"):addMouseRegion("button", "boot", 0,0,500,200)
-windowManager:getWindow("BITPRO INDUSTRIES BOOTLOADER"):addMouseRegion("INTERNALDRAG", "", 0,0,500,20)
+screen2:addWindow(50,50,500,200,"WINDOWTITLE")
+screen2:getWindow("WINDOWTITLE"):updateColors(core:createColor(0,0,0,255), core:createColor(0,0,255,255), core:createColor(0,0,0,255))
+screen2:windowSurface("WINDOWTITLE"):drawImage(core:vertGradient(core:createColor(0,0,255,255), core:createColor(0,0,0,255), 500, 200), 0,20,500,180, core:getObserver())
 
-windowManager:getWindow("TESTWINDOW"):addMouseRegion("removeWindow", "boot", 0,0,500,20)
+windowManager:getWindow(lang:getKey("BootTitle")):addMouseRegion("INTERNALDRAG", "", 0,0,500,20)
+windowManager:getWindow(lang:getKey("BootTitle")):addTextBox("TEST", 5, 160, 200, 16)
+
+windowManager:getWindow(lang:getKey("BootTitle")):addTextBox("HARPDARP", 5, 144, 200, 16)
+
+windowManager:getWindow(lang:getKey("BootTitle")):textbox("HARPDARP"):setColors(core:createColor(0,0,0), core:createColor(0,0,255), core:createColor(255,255,255))
+
+screen2:getWindow("WINDOWTITLE"):queueUpdate()
+screen2:repaint()
 end
 function allocate()
-core:allocateResource("Pattern_Cube")
-end
-function removeWindow()
-windowManager:removeWindow("TESTWINDOW")
 end
 function postRender(window)
---Normally, this would draw things like the close and minimise boxes
+--Normally, this would draw things like the close and minimize boxes
 end
