@@ -28,7 +28,6 @@ public class UPnP
 		try {
 			externalIP = router.getExternalIPAddress();
 		} catch (IOException | SAXException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
