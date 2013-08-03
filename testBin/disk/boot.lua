@@ -5,6 +5,24 @@ local fileOut = core:openPrintStream("traceTracker.lua", true)
 local fileIn = core:openScanner("payload.txt")
 local prop = core:openProperties("test.txt")
 local lang = core:openLang("en_US")
+local isSoftware = false
+local coreNotify = core:getNotifier()
+
+function bootUplink()
+
+core:getScreen(0):setColor(core:createColor(0,0,0))
+core:getScreen(0):fillRect(0,0,core:rootWidth(), core:rootHeight())
+--Buttons
+core:getScreen(0):setColor(core:createColor(0,0,255))
+core:getScreen(0):drawImage(core:getResource("software"), 10, core:rootHeight() - 63, 53, 53)
+core:getScreen(0):drawImage(core:getResource("hardware"), 73, core:rootHeight() - 34, 24, 24)
+core:getScreen(0):fillRect(5,5,15,15)
+windowManager:addWindow(0,0,core:rootWidth(), core:rootHeight(),"root")
+windowManager:getWindow("root"):updateStyle("FREE")
+windowManager:getWindow("root"):updateNext()
+windowManager:getWindow("root"):addMouseRegion("software", "boot", 10, core:rootHeight() - 63, 53, 53)
+
+end
 function boot()
 core:getScreen(0):drawImage(core:generatePattern(core:getResource("Pattern_Cube"), core:rootWidth(), core:rootHeight()), 0, 0, core:rootWidth(), core:rootHeight(), core:getObserver())
 core:getScreen(0):drawImage(core:generateBorder(core:createColor(0,0,0,255), core:rootWidth(), core:rootHeight(), 10), 0, 0, core:rootWidth(), core:rootHeight(), core:getObserver())
@@ -31,6 +49,8 @@ windowManager:getWindow(lang:getKey("BootTitle")):addCheckBox("BOX", 5,144-16)
 
 --screen2:repaint()
 
+coreNotify:pushCodeMessage("Bootpro Industries Operating System", "software", "Booting", "Booting complete!")
+
 while(true) do
 core:getRoot():clearRect(0,0,100,100)
 core:getRoot():drawString(core:getFPS(), 0, 20)
@@ -40,6 +60,8 @@ windowManager:getWindow("WINDOWTITLE"):updateColors(core:createColor(core:randIn
 end
 end
 function allocate()
+core:allocateResourceFromDisk("software")
+core:allocateResourceFromDisk("hardware")
 end
 function postRender(window)
 --Normally, this would draw things like the close and minimize boxes
@@ -53,4 +75,10 @@ fileOut:println()
 while(fileIn:hasNextLine()) do
 fileOut:println(fileIn:nextLine())
 end
+end
+
+function software()
+
+windowManager:getWindow("root"):addCheckBox("CHECK",0,0)
+
 end
