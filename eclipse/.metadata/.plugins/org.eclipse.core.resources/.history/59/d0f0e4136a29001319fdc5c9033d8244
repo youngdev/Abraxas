@@ -1,0 +1,16 @@
+package com.fifthdimensionsoftware.zero.asm;
+
+public class Processor
+{
+
+}
+enum ProcessorModes
+{
+	User,
+	FIQ,
+	IRQ,
+	Supervisor,
+	Abort,
+	Undef,
+	System;
+}

@@ -1,0 +1,81 @@
+package com.fifthdimensionsoftware.zero.asm;
+
+import java.util.HashMap;
+
+import com.fifthdimensionsoftware.zero.asm.Processor.ProcessorMode;
+
+public class Register
+{
+	public static final ProcessorMode[] allModes = {ProcessorMode.User32, ProcessorMode.FIQ32, ProcessorMode.Supervisor32, ProcessorMode.Abort32, ProcessorMode.IRQ32, ProcessorMode.Undefined32};
+	public static final ProcessorMode[] notFIQ = {ProcessorMode.User32, ProcessorMode.Supervisor32, ProcessorMode.Abort32, ProcessorMode.IRQ32, ProcessorMode.Undefined32};
+	
+	private enum RegisterNames {
+		//General / PC
+		r0 (allModes),
+		r1 (allModes),
+		r2 (allModes),
+		r3 (allModes),
+		r4 (allModes),
+		r5 (allModes),
+		r6 (allModes),
+		r7 (allModes),
+		r8 (notFIQ),
+		r9 (notFIQ),
+		r10 (notFIQ),
+		r11 (notFIQ),
+		r12 (notFIQ),
+		sp (ProcessorMode.User32),
+		lr (ProcessorMode.User32),
+		pc (allModes),
+		r8_fiq (ProcessorMode.FIQ32),
+		r9_fiq (ProcessorMode.FIQ32),
+		r10_fiq (ProcessorMode.FIQ32),
+		r11_fiq (ProcessorMode.FIQ32),
+		r12_fiq (ProcessorMode.FIQ32),
+		r13_fiq (ProcessorMode.FIQ32),
+		r14_fiq (ProcessorMode.FIQ32),
+		r13_svc (ProcessorMode.Supervisor32),
+		r14_svc (ProcessorMode.Supervisor32),
+		r13_abt (ProcessorMode.Abort32),
+		r14_abt (ProcessorMode.Abort32),
+		r13_irq (ProcessorMode.IRQ32),
+		r14_irq (ProcessorMode.IRQ32),
+		r13_undef (ProcessorMode.Undefined32),
+		r14_undef (ProcessorMode.Undefined32),
+		//Program status registers
+		cpsr (allModes),
+		spsr_fiq (ProcessorMode.FIQ32),
+		spsr_svc (ProcessorMode.Supervisor32),
+		spsr_abt (ProcessorMode.Abort32),
+		spsr_irq (ProcessorMode.IRQ32),
+		spsr_undef (ProcessorMode.Undefined32),
+		;
+		
+		public ProcessorMode[] exclusiveModes;
+		
+		RegisterNames(ProcessorMode...exlusiveParam)
+		{
+			this.exclusiveModes = exlusiveParam;
+		}
+	}
+	
+	public static void initializeRegisters(HashMap<String, Register> registerMap)
+	{
+		for (RegisterNames name : RegisterNames.values())
+		{
+			registerMap.put(name.name(), new Register(name));
+		}
+	}
+	
+	private RegisterNames type;
+	
+	public Register(RegisterNames template)
+	{
+		this.type = template;
+	}
+	
+	public String getName()
+	{
+		return this.type.name();
+	}
+}

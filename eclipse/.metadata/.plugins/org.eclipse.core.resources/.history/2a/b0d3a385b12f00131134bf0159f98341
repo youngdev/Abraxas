@@ -1,0 +1,39 @@
+package com.fifthdimensionsoftware.zero;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+import com.fifthdimensionsoftware.zero.graphics.GLComplex;
+import com.fifthdimensionsoftware.zero.tools.MultiplexOutputStream;
+
+public class ZeroDayExploit
+{
+	public static void main(String[] args)
+	{
+		//Multiplex the terminal output
+		try {
+			MultiplexOutputStream.multiplexConsole(new FileOutputStream(new File("logFile.log"), false));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+		//Update the library path to the new directory
+		
+		String osname = System.getProperty("os.name", "generic").toLowerCase();
+	    if (osname.startsWith("windows")) {
+	      osname = "win";
+	    }
+	    else if (osname.startsWith("mac") || osname.startsWith("darwin")) {
+	      osname = "mac";
+	    }
+	    else osname = "linux";
+		
+	    System.err.println("Loading native libraries from "+"/natives/"+osname);
+	    
+		System.setProperty("org.lwjgl.librarypath", new File("").getAbsolutePath()+"/natives/"+osname);
+		
+		//Start the game
+		GLComplex.beginGL();
+	}
+}

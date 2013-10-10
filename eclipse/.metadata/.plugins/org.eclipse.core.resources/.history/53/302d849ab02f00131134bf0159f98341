@@ -1,0 +1,29 @@
+package com.fifthdimensionsoftware.zero;
+
+import java.io.File;
+
+import com.fifthdimensionsoftware.zero.graphics.GLComplex;
+
+public class ZeroDayExploit
+{
+	public static void main(String[] args)
+	{
+		//Update the library path to the new directory
+		System.setProperty("org.lwjgl.librarypath", new File("").getAbsolutePath()+"/natives/"+platform());
+		
+		
+		//Start the game
+		GLComplex.beginGL();
+	}
+	
+	public static String platform() {
+	    String osname = System.getProperty("os.name", "generic").toLowerCase();
+	    if (osname.startsWith("windows")) {
+	      return "win";
+	    }
+	    else if (osname.startsWith("mac") || osname.startsWith("darwin")) {
+	      return "mac";
+	    }
+	    else return "linux";
+	  }
+}

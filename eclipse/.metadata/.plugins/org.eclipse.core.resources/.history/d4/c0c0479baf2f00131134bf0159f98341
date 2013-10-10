@@ -1,0 +1,11 @@
+package com.fifthdimensionsoftware.zero;
+
+import com.fifthdimensionsoftware.zero.graphics.GLComplex;
+
+public class ZeroDayExploit
+{
+	public static void main(String[] args)
+	{
+		GLComplex.beginGL();
+	}
+}

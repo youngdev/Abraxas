@@ -1,0 +1,27 @@
+package com.fifthdimensionsoftware.zero.asm;
+
+public class Processor
+{
+	private ProcessorMode mode = ProcessorMode.Undef;
+	private HashMap
+}
+class Register
+{
+	public int value = 0;
+	public String id = "";
+	
+	public Register(String id)
+	{
+		this.id = id;
+	}
+}
+enum ProcessorMode
+{
+	User,
+	FIQ,
+	IRQ,
+	Supervisor,
+	Abort,
+	Undef,
+	System;
+}

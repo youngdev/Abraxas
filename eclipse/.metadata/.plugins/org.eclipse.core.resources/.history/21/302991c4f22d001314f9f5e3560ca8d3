@@ -1,0 +1,9 @@
+package com.fifthdimensionsoftware.zero;
+
+public class ZeroDayExploit
+{
+	public static void main(String[] args)
+	{
+		
+	}
+}

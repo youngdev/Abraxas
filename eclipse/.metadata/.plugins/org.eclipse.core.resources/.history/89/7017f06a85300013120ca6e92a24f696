@@ -1,0 +1,52 @@
+package com.fifthdimensionsoftware.zero.asm;
+
+import static com.fifthdimensionsoftware.zero.asm.Processor.ProcessorMode;
+
+public class Register {
+	public static final ProcessorMode[] allModes = {ProcessorMode.User32, ProcessorMode.FIQ32, ProcessorMode.Supervisor32, ProcessorMode.Abort32, ProcessorMode.IRQ32, ProcessorMode.Undefined32};
+	public static final ProcessorMode[] notFIQ = {ProcessorMode.User32, ProcessorMode.Supervisor32, ProcessorMode.Abort32, ProcessorMode.IRQ32, ProcessorMode.Undefined32};
+	
+	private enum RegisterNames {
+		
+		r0 (allModes),
+		r1 (allModes),
+		r2 (allModes),
+		r3 (allModes),
+		r4 (allModes),
+		r5 (allModes),
+		r6 (allModes),
+		r7 (allModes),
+		r8 (notFIQ),
+		r9 (notFIQ),
+		r10 (notFIQ),
+		r11 (notFIQ),
+		r12 (notFIQ),
+		sp (ProcessorMode.User32),
+		lr (ProcessorMode.User32),
+		pc (allModes),
+		r8_fiq (),
+		r9_fiq (),
+		r10_fiq (),
+		r11_fiq (),
+		r12_fiq (),
+		r13_fiq (),
+		r14_fiq (),
+		r13_svc (),
+		r14_svc (),
+		r13_abt (),
+		r14_abt (),
+		r13_irq (),
+		r14_irq (),
+		r13_undef (),
+		r14_undef ();
+		
+		
+		
+		ProcessorMode[] exclusiveModes;
+		
+		RegisterNames(ProcessorMode...exlusiveParam)
+		{
+			this.exclusiveModes = exlusiveParam;
+		}
+	}
+}

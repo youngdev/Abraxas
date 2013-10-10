@@ -1,0 +1,7 @@
+package com.fifthdimensionsoftware.zero.asm;
+
+public class Register {
+	private enum RegisterNames {
+		r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, sp, lr, pc, r8_fiq, r9_fiq, r10_fiq, r11_fiq, r12_fiq, r13_fiq, r14_fiq, r13_svc, r14_svc, r13_abt, r14_abt, r13_irq, r14_irq, r13_undef, r14_undef
+	}
+}
