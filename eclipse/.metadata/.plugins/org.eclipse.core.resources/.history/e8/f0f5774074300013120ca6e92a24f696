@@ -1,9 +1,0 @@
-package com.fifthdimensionsoftware.zero.asm;
-
-import java.io.RandomAccessFile;
-import java.util.LinkedList;
-
-public class Processor
-{
-	private LinkedList<RandomAccessFile> derp = new LinkedList<RandomAccessFile>();
-}
