@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_rv3S0EEMEeO0Otc0OEcKsQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_rv3S0UEMEeO0Otc0OEcKsQ" bindingContexts="_rwKNwEEMEeO0Otc0OEcKsQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GameUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/GameUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/GameUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MouseUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/MouseUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/MouseUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ZeroDayExploit.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/ZeroDayExploit.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/ZeroDayExploit.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GLComplex.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/GLComplex.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/GLComplex.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MemoryUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/MemoryUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/MemoryUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MultiplexOutputStream.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/MultiplexOutputStream.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/MultiplexOutputStream.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ZipUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/ZipUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/ZipUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Processor.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/asm/Processor.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/asm/Processor.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AudioUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/AudioUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/AudioUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GraphicsUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/GraphicsUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/GraphicsUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;FileUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/FileUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/FileUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TimeUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/TimeUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/TimeUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Register.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/asm/Register.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/asm/Register.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Sys.java&quot; tooltip=&quot;Zero Day Exploit/src/org/lwjgl/Sys.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/org/lwjgl/Sys.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ZipUtil.java&quot; tooltip=&quot;Zero Day Exploit LWJGL/src/com/fifthdimensionsoftware/tools/ZipUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit LWJGL/src/com/fifthdimensionsoftware/tools/ZipUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LifeUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/LifeUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/LifeUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GameUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/GameUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/GameUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MouseUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/MouseUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/MouseUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ZeroDayExploit.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/ZeroDayExploit.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/ZeroDayExploit.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GLComplex.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/GLComplex.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/GLComplex.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MemoryUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/MemoryUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/MemoryUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MultiplexOutputStream.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/MultiplexOutputStream.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/MultiplexOutputStream.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ZipUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/ZipUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/ZipUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Processor.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/asm/Processor.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/asm/Processor.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AudioUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/AudioUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/AudioUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GraphicsUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/GraphicsUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/GraphicsUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;FileUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/FileUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/FileUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TimeUtil.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/TimeUtil.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/TimeUtil.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Register.java&quot; tooltip=&quot;Zero Day Exploit/src/com/fifthdimensionsoftware/zero/asm/Register.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/asm/Register.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Sys.java&quot; tooltip=&quot;Zero Day Exploit/src/org/lwjgl/Sys.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Zero Day Exploit/src/org/lwjgl/Sys.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_rv3S0UEMEeO0Otc0OEcKsQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_rv3S0kEMEeO0Otc0OEcKsQ" x="538" y="-17" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_rv3S0UEMEeO0Otc0OEcKsQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_rv3S0kEMEeO0Otc0OEcKsQ" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
@@ -264,7 +264,7 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_rv3TF0EMEeO0Otc0OEcKsQ" elementId="org.eclipse.egit.ui.RepositoriesView" ref="_rv8LjUEMEeO0Otc0OEcKsQ"/>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_rv3TGEEMEeO0Otc0OEcKsQ" containerData="7500" selectedElement="_rv3TGUEMEeO0Otc0OEcKsQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_rv3TGEEMEeO0Otc0OEcKsQ" containerData="7500" selectedElement="_rv3TIkEMEeO0Otc0OEcKsQ">
               <children xsi:type="basic:PartSashContainer" xmi:id="_rv3TGUEMEeO0Otc0OEcKsQ" containerData="7457" selectedElement="_rv3TGkEMEeO0Otc0OEcKsQ" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_rv3TGkEMEeO0Otc0OEcKsQ" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_rv5ICkEMEeO0Otc0OEcKsQ"/>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_rv3TG0EMEeO0Otc0OEcKsQ" containerData="2500" selectedElement="_rv3THkEMEeO0Otc0OEcKsQ">
@@ -326,7 +326,7 @@
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <children xsi:type="basic:Part" xmi:id="_rv5IDEEMEeO0Otc0OEcKsQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="GraphicsUtil.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" tooltip="Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/GraphicsUtil.java" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/GraphicsUtil.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1087&quot; selectionTopPixel=&quot;260&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/GraphicsUtil.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;768&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -502,7 +502,7 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_-SKpsEJnEeOo6bItSQ53gw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="GameUtil.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" tooltip="Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/GameUtil.java" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/GameUtil.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;77&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/tools/GameUtil.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;5188&quot; selectionTopPixel=&quot;2109&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -515,7 +515,13 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="__y4igEP8EeOK8IvsH_QqSg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ZeroDayExploit.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" tooltip="Zero Day Exploit/src/com/fifthdimensionsoftware/zero/ZeroDayExploit.java" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/ZeroDayExploit.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/ZeroDayExploit.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1098&quot; selectionTopPixel=&quot;120&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_b2HbUETPEeOOjJyrsdhcHw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="LifeUtil.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" tooltip="Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/LifeUtil.java" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Zero Day Exploit/src/com/fifthdimensionsoftware/zero/graphics/LifeUtil.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;287&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -608,7 +614,7 @@
       <toolbar xmi:id="_rv6WO0EMEeO0Otc0OEcKsQ" elementId="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_rv6WPEEMEeO0Otc0OEcKsQ" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide//icons/full/eview16/problems_view.gif" tooltip="0 items" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings (1 item)&quot;/>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Errors&quot;/>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings (1 item)&quot;/>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_rv6WPUEMEeO0Otc0OEcKsQ" elementId="org.eclipse.ui.views.ProblemView">
@@ -830,9 +836,15 @@
       <tags>View</tags>
       <tags>categoryTag:Java</tags>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_rv8Li0EMEeO0Otc0OEcKsQ" elementId="org.eclipse.jdt.ui.SourceView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Declaration" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/source.gif" closeable="true">
+    <sharedElements xsi:type="basic:Part" xmi:id="_rv8Li0EMEeO0Otc0OEcKsQ" elementId="org.eclipse.jdt.ui.SourceView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Declaration" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/source.gif" tooltip="com.fifthdimensionsoftware.zero.graphics.LifeUtil.render(Graphics g, Color color) : void - Zero Day Exploit/src" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Java</tags>
+      <menus xmi:id="_lvBV8ETWEeOOjJyrsdhcHw" elementId="org.eclipse.jdt.ui.SourceView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_lvB9AETWEeOOjJyrsdhcHw" elementId="org.eclipse.jdt.ui.SourceView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_rv8LjEEMEeO0Otc0OEcKsQ" elementId="org.eclipse.ui.texteditor.TemplatesView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Templates" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/templates.gif" closeable="true">
       <tags>View</tags>
@@ -859,18 +871,18 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rv8yZEEMEeO0Otc0OEcKsQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCLf0EPiEeOK8IvsH_QqSg" elementId="new.group"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCMG4EPiEeOK8IvsH_QqSg" elementId="newWizardDropDown"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCMG4UPiEeOK8IvsH_QqSg" elementId="new.ext" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCMt8EPiEeOK8IvsH_QqSg" elementId="save.group" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCMt8UPiEeOK8IvsH_QqSg" elementId="save"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCMt8kPiEeOK8IvsH_QqSg" elementId="saveAll"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCMt80PiEeOK8IvsH_QqSg" elementId="save.ext" visible="false"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_uCNVAEPiEeOK8IvsH_QqSg" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.gif" tooltip="Print" command="_rxSPJ0EMEeO0Otc0OEcKsQ"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCTboEPiEeOK8IvsH_QqSg" elementId="print.ext" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCTboUPiEeOK8IvsH_QqSg" elementId="build.group"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCTbokPiEeOK8IvsH_QqSg" elementId="build.ext" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCUCsEPiEeOK8IvsH_QqSg" elementId="additions"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FSqcgETPEeOOjJyrsdhcHw" elementId="new.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FSqcgUTPEeOOjJyrsdhcHw" elementId="newWizardDropDown"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FSrDkETPEeOOjJyrsdhcHw" elementId="new.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FSrDkUTPEeOOjJyrsdhcHw" elementId="save.group" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FSrqoETPEeOOjJyrsdhcHw" elementId="save"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FSrqoUTPEeOOjJyrsdhcHw" elementId="saveAll"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FSrqokTPEeOOjJyrsdhcHw" elementId="save.ext" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_FSsRsETPEeOOjJyrsdhcHw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.gif" tooltip="Print" command="_rxSPJ0EMEeO0Otc0OEcKsQ"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FSyYUETPEeOOjJyrsdhcHw" elementId="print.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FSy_YETPEeOOjJyrsdhcHw" elementId="build.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FSy_YUTPEeOOjJyrsdhcHw" elementId="build.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FSzmcETPEeOOjJyrsdhcHw" elementId="additions"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rv8ycUEMEeO0Otc0OEcKsQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -878,15 +890,15 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rv9ZikEMEeO0Otc0OEcKsQ" elementId="org.eclipse.jdt.ui.JavaElementCreationActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKThEEPiEeOK8IvsH_QqSg" elementId="JavaWizards"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKThEUPiEeOK8IvsH_QqSg" elementId="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKUIIEPiEeOK8IvsH_QqSg" elementId="org.eclipse.jdt.ui.actions.OpenPackageWizard"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKUIIUPiEeOK8IvsH_QqSg" elementId="org.eclipse.jdt.ui.actions.NewTypeDropDown"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY5AUETPEeOOjJyrsdhcHw" elementId="JavaWizards"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY5AUUTPEeOOjJyrsdhcHw" elementId="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY5nYETPEeOOjJyrsdhcHw" elementId="org.eclipse.jdt.ui.actions.OpenPackageWizard"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY5nYUTPEeOOjJyrsdhcHw" elementId="org.eclipse.jdt.ui.actions.NewTypeDropDown"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rv9Zj0EMEeO0Otc0OEcKsQ" elementId="org.eclipse.debug.ui.breakpointActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKUvMEPiEeOK8IvsH_QqSg" elementId="breakpointGroup"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKUvMUPiEeOK8IvsH_QqSg" elementId="org.eclipse.debug.ui.actions.SkipAllBreakpoints"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY5nYkTPEeOOjJyrsdhcHw" elementId="breakpointGroup"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY5nY0TPEeOOjJyrsdhcHw" elementId="org.eclipse.debug.ui.actions.SkipAllBreakpoints"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rv9ZkkEMEeO0Otc0OEcKsQ" elementId="org.eclipse.debug.ui.debugActionSet" visible="false">
         <tags>Draggable</tags>
@@ -909,10 +921,10 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rv-AkEEMEeO0Otc0OEcKsQ" elementId="org.eclipse.debug.ui.launchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKV9UEPiEeOK8IvsH_QqSg" elementId="debug"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKV9UUPiEeOK8IvsH_QqSg" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKWkYEPiEeOK8IvsH_QqSg" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKWkYUPiEeOK8IvsH_QqSg" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY6OcETPEeOOjJyrsdhcHw" elementId="debug"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY6OcUTPEeOOjJyrsdhcHw" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY6OckTPEeOOjJyrsdhcHw" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY6Oc0TPEeOOjJyrsdhcHw" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rv-AlUEMEeO0Otc0OEcKsQ" elementId="org.eclipse.jst.j2ee.J2eeMainActionSet" visible="false">
         <tags>Draggable</tags>
@@ -922,21 +934,20 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rv-AmUEMEeO0Otc0OEcKsQ" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKWkYkPiEeOK8IvsH_QqSg" elementId="Search"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKWkY0PiEeOK8IvsH_QqSg" elementId="openType"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKXLcEPiEeOK8IvsH_QqSg" elementId="org.eclipse.mylyn.tasks.ui.openTask"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKXLcUPiEeOK8IvsH_QqSg" elementId="org.eclipse.search.OpenSearchDialogPage"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Hc1PQEQlEeOK8IvsH_QqSg" elementId="org.eclipse.egit.ui.commit.OpenCommitAction"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY6OdETPEeOOjJyrsdhcHw" elementId="Search"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY61gETPEeOOjJyrsdhcHw" elementId="openType"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY61gUTPEeOOjJyrsdhcHw" elementId="org.eclipse.mylyn.tasks.ui.openTask"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY61gkTPEeOOjJyrsdhcHw" elementId="org.eclipse.search.OpenSearchDialogPage"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rv-AnkEMEeO0Otc0OEcKsQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_wS7acEPiEeOK8IvsH_QqSg" elementId="Presentation"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_wS8BgEPiEeOK8IvsH_QqSg" elementId="org.eclipse.jdt.ui.edit.text.java.toggleBreadcrumb"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_wS8BgUPiEeOK8IvsH_QqSg" elementId="org.eclipse.jdt.ui.edit.text.java.toggleMarkOccurrences"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_wS8BgkPiEeOK8IvsH_QqSg" elementId="org.eclipse.mylyn.java.ui.editor.folding.auto"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_wS8okEPiEeOK8IvsH_QqSg" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_wS8okUPiEeOK8IvsH_QqSg" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_wS8okkPiEeOK8IvsH_QqSg" elementId="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Gl2isETPEeOOjJyrsdhcHw" elementId="Presentation"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Gl2isUTPEeOOjJyrsdhcHw" elementId="org.eclipse.jdt.ui.edit.text.java.toggleBreadcrumb"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Gl2iskTPEeOOjJyrsdhcHw" elementId="org.eclipse.jdt.ui.edit.text.java.toggleMarkOccurrences"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Gl3JwETPEeOOjJyrsdhcHw" elementId="org.eclipse.mylyn.java.ui.editor.folding.auto"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Gl3JwUTPEeOOjJyrsdhcHw" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Gl3JwkTPEeOOjJyrsdhcHw" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_Gl3Jw0TPEeOOjJyrsdhcHw" elementId="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rv-AqEEMEeO0Otc0OEcKsQ" elementId="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" visible="false">
         <tags>Draggable</tags>
@@ -954,15 +965,15 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rv-nkUEMEeO0Otc0OEcKsQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCUCsUPiEeOK8IvsH_QqSg" elementId="history.group"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCUCskPiEeOK8IvsH_QqSg" elementId="group.application" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCUCs0PiEeOK8IvsH_QqSg" elementId="backardHistory"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCUpwEPiEeOK8IvsH_QqSg" elementId="forwardHistory"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCUpwUPiEeOK8IvsH_QqSg" elementId="pin.group"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_uCUpwkPiEeOK8IvsH_QqSg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.gif" tooltip="Pin Editor" enabled="false" command="_rw5Nl0EMEeO0Otc0OEcKsQ"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKXLckPiEeOK8IvsH_QqSg" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKXygEPiEeOK8IvsH_QqSg" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uKXygUPiEeOK8IvsH_QqSg" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FSzmcUTPEeOOjJyrsdhcHw" elementId="history.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FSzmckTPEeOOjJyrsdhcHw" elementId="group.application" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FS0NgETPEeOOjJyrsdhcHw" elementId="backardHistory"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FS0NgUTPEeOOjJyrsdhcHw" elementId="forwardHistory"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FS0NgkTPEeOOjJyrsdhcHw" elementId="pin.group"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_FS00kETPEeOOjJyrsdhcHw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.gif" tooltip="Pin Editor" enabled="false" command="_rw5Nl0EMEeO0Otc0OEcKsQ"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY61g0TPEeOOjJyrsdhcHw" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY7ckETPEeOOjJyrsdhcHw" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FY7ckUTPEeOOjJyrsdhcHw" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rv-nnEEMEeO0Otc0OEcKsQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -974,8 +985,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rv-noEEMEeO0Otc0OEcKsQ" elementId="org.eclipse.ui.workbench.help" visible="false">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCWe8EPiEeOK8IvsH_QqSg" elementId="group.help"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_uCWe8UPiEeOK8IvsH_QqSg" elementId="group.application" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FS2CsETPEeOOjJyrsdhcHw" elementId="group.help"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_FS2pwETPEeOOjJyrsdhcHw" elementId="group.application" visible="false"/>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_rv-no0EMEeO0Otc0OEcKsQ" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
         <tags>stretch</tags>
