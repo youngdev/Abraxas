@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/Zero Day Exploit" element2="/Zero Day Exploit Damaged" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1380936087327"/>&#x0A;<refactoring comment="Delete resource &apos;Zero Day Exploit ASM&apos;" deleteContents="true" description="Delete resource &apos;Zero Day Exploit ASM&apos;" element1="/Zero Day Exploit ASM" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1380936096025"/>
-</session>

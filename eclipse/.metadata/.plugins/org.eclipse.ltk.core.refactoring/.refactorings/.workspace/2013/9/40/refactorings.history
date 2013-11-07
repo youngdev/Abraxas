@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Zero Day Exploit&apos; to &apos;Zero Day Exploit Damaged&apos;" description="Rename resource &apos;Zero Day Exploit&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Zero Day Exploit" name="Zero Day Exploit Damaged" stamp="1380499638767" updateReferences="true"/>
-</session>
