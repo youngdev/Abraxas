@@ -4,3 +4,4 @@ Hardware Interrupts : 1
 r0 - Interrupt Type (Keyboard, Mouse, Disk Addition / Removal)
 r1 - Data (Key Code / Character, Mouse Button, DiskID)
 Quantum Interrupt : 2
+Execution Interrupt

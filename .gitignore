@@ -16,6 +16,8 @@ local.properties
 .settings/
 .loadpath
 
+*.dmp
+
 # External tool builders
 .externalToolBuilders/
 
